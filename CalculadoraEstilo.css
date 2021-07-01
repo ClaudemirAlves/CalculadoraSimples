@@ -1,0 +1,67 @@
+body {
+    background: url(FundoCalculadora.jpg);
+    background-size: cover;
+}
+
+#calculator {
+    width: 275px;
+    margin: 10px auto;
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: inset 0 0 1em rgb(255, 255, 255), 0 0 1em rgb(0, 61, 131);
+    border-radius: 30px;
+    padding: 15px;
+    padding-right: 1px;
+}
+
+h1 {
+  font-family: sans-serif, Verdana, Tahoma;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#display {
+    background-color: rgba(0, 255, 255, 0.5);
+    margin: 10px auto;
+    width: 245px;
+    height: 25px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    border-color: #ffffff;
+    border-radius: 30px;
+}
+  
+.structure {
+    text-align: center;
+}
+
+.pushbutton {
+     
+    background-color: #00adfdb0;
+    font-size: 20px; 
+    width: 50px;
+    height: 30px;
+    border-color: #ffffff;
+    border-radius: 30px;    
+    color: #ffffff;
+    font-weight: bolder;
+    cursor:pointer;  
+}
+   
+.pushbutton:hover {
+    background: #0011ff;  
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif, Verdana, Tahoma;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif, Verdana, Tahoma;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
